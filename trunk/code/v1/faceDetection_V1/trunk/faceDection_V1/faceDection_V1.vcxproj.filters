@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\FolderSearch">
+      <UniqueIdentifier>{ebb705e4-331d-490b-be15-5cd3134859ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\FolderSearch">
+      <UniqueIdentifier>{83addc84-0610-4523-8301-3fe638476a3c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\faceDection_V1.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\faceDection_V1Doc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\faceDection_V1.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\icon1.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\icon2.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ico00001.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ico2.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\folder\DRIVE_CDROM.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\folder\DRIVE_FIXED.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\folder\DRIVE_FLOPPY.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\folder\DRIVE_REMOVABLE.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\folder\FOLDER_CLOSE.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\folder\FOLDER_OPEN.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\folder\icon7.ico">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="faceDection_V1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="faceDection_V1Doc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="faceDection_V1View.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="folderList.h">
+      <Filter>头文件\FolderSearch</Filter>
+    </ClInclude>
+    <ClInclude Include="folderTreeCtrl.h">
+      <Filter>头文件\FolderSearch</Filter>
+    </ClInclude>
+    <ClInclude Include="ScanDlg.h">
+      <Filter>头文件\FolderSearch</Filter>
+    </ClInclude>
+    <ClInclude Include="fileSearch.h">
+      <Filter>头文件\FolderSearch</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="faceDection_V1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="faceDection_V1Doc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="faceDection_V1View.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="folderList.cpp">
+      <Filter>源文件\FolderSearch</Filter>
+    </ClCompile>
+    <ClCompile Include="folderTreeCtrl.cpp">
+      <Filter>源文件\FolderSearch</Filter>
+    </ClCompile>
+    <ClCompile Include="ScanDlg.cpp">
+      <Filter>源文件\FolderSearch</Filter>
+    </ClCompile>
+    <ClCompile Include="fileSearch.cpp">
+      <Filter>源文件\FolderSearch</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="faceDection_V1.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
